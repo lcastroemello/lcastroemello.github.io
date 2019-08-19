@@ -2,7 +2,7 @@
 
 ## Description: 
 
-Initial webpage for a  service on visiting Berlin
+Initial webpage for a service to welcome companies in Berlin
 
 ## Developed using:
 
@@ -16,10 +16,10 @@ Initial webpage for a  service on visiting Berlin
 
 ![presentationpage](/Users/lcastroemello/Desktop/curry-code/w1/visitBerlin/presentationpage.gif)
 
-- Functional Hamburguer Menu
+- Hamburguer Menu developed with JavaScript
 
 ![hamburguermenu](/Users/lcastroemello/Desktop/curry-code/w1/visitBerlin/hamburguermenu.gif)
 
 - Media Query (Mobile friendly)
 
-![mediaquery](/Users/lcastroemello/Desktop/curry-code/w1/visitBerlin/mediaquery.gif)
+![mediaqueries](/Users/lcastroemello/Desktop/curry-code/w1/visitBerlin/mediaqueries.gif)
