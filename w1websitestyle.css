@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+.header {
+    background-color: white;
+    position: block;
+    margin: 1rem;
+    height: 4rem;
+}
+
+#logo {
+    /*position: static;*/
+    display: inline;
+    float: left;
+    height: 90%;
+}
+#menuImage {
+    /*position: static;*/
+    display: inline;
+    float: right;
+    height: 80%;
+    margin: 1px;
+}
+
+/*welcoming*/
+h1 {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+    font-size: 3.5rem;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    top: 5rem;
+    /*margin: 50% 0%;*/
+}
+
+.welcome {
+    position: relative;
+}
+
+/*.welcome {
+    background-image: url("reichstag.jpeg");
+    background-size: cover;
+    position: block;
+}
+*/
+.reichstag {
+    display: block;
+    margin: auto;
+    clear: none;
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    filter: brightness(60%);
+}
+.message {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+
+#starting {
+    background-color: #ffcc33;
+    border: 0.3rem solid #cc7419;
+    border-radius: 40px;
+    color: orange;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.3rem 5rem;
+    color: #cc7419;
+    display: inline-block;
+    margin: auto;
+    clear: both;
+    position: relative;
+    z-index: 2;
+    top: 5rem;
+}
+
+/*main texts*/
+
+.imageitem {
+    position: relative;
+    height: 8rem;
+    width: 8rem;
+    text-align: right;
+    float: left;
+    padding: 30px;
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+}
+h2 {
+    color: black;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+p {
+    color: black;
+    font-size: 1.5rem;
+    font-family: serif;
+    text-align: left;
+    font-weight: normal;
+    padding-bottom: 1.5rem;
+}
+
+.main {
+    background-color: #cccccc;
+    display: block;
+    padding: 3rem 3rem 5rem;
+    position: relative;
+    right: 0;
+    height: 30rem;
+    color: #ccc;
+}
+
+.top {
+    top: 0%;
+}
+
+.bottom {
+    bottom: 0%;
+    padding-bottom: 3rem;
+}
+
+.left {
+    display: inline-block;
+    text-align: left;
+    background-color: inherit;
+    width: 50%;
+    left: 0;
+    float: left;
+    padding-left: 5rem;
+}
+
+.right {
+    display: inline-block;
+    text-align: right;
+    background-color: inherit;
+    width: 50%;
+    right: 0;
+    float: right;
+    padding-right: 5rem;
+}
+
+/*footer*/
+footer {
+    background-color: grey;
+    color: white;
+    font-size: 2rem;
+    clear: both;
+    position: relative;
+    margin-bottom: 0px;
+    padding: 1rem 5rem;
+}
+
+/* Menu */
+#hamburger-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    visibility: hidden;
+    z-index: 101;
+}
+
+.on #hamburger-menu {
+    visibility: visible;
+}
+
+#menu {
+    background-color: white;
+    max-width: 400%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transform: translateX(100%);
+}
+
+#menu.movement {
+    transform: translateX(0%);
+}
+
+.menuitself {
+    font-size: 2rem;
+    position: relative;
+    text-align: left;
+    clear: both;
+    display: block;
+    padding: 5rem 5rem 5rem 2rem;
+}
+#logout {
+    font-size: 1rem;
+}
+#close {
+    color: red;
+    font-weight: 700;
+    font-size: 26px;
+    position: absolute;
+    right: 0.9rem;
+    top: 0.9rem;
+    display: block;
+    z-index: 102;
+}
+/*Media Query*/
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 1.5rem;
+        top: 0rem;
+    }
+
+    #starting {
+        font-size: 1.2rem;
+        padding: 0.3rem 2rem;
+        top: 0rem;
+        border: 0.2rem solid #cc7419;
+    }
+
+    #logo {
+        height: 90%;
+    }
+    #menuImage {
+        height: 80%;
+    }
+    .header {
+        margin: 1rem;
+        height: 2rem;
+    }
+
+    .left {
+        display: block;
+        text-align: center;
+        padding-left: 0.8rem;
+        padding-right: 1rem;
+        margin-bottom: 1rem;
+        clear: both;
+        width: 100%;
+    }
+
+    .right {
+        display: block;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 0.8rem;
+        clear: both;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .imageitem {
+        height: 4rem;
+        width: 4rem;
+        padding: 10px;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+        clear: both;
+        padding: 0.5rem 3rem 0.5rem 2rem;
+    }
+    .main {
+        padding: 1rem 1rem 2.5rem 0.8rem;
+        position: relative;
+        right: 0;
+        height: 30rem;
+    }
+
+    .bottom {
+        padding-bottom: 0rem;
+    }
+}
