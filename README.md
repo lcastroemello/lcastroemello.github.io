@@ -14,12 +14,13 @@ Initial webpage for a service to welcome companies in Berlin
 
 - Initial link for the content of the page on friendly designed page that also presents characteristics of our fictional company.
 
-![presentationpage](/Users/lcastroemello/Desktop/curry-code/w1/visitBerlin/presentationpage.gif)
+<img src='./presentationpage.gif' />
 
 - Hamburguer Menu developed with JavaScript
 
-![hamburguermenu](/Users/lcastroemello/Desktop/curry-code/w1/visitBerlin/hamburguermenu.gif)
+<img src='./hamburguermenu.gif' />
 
 - Media Query (Mobile friendly)
 
-![mediaquery](/Users/lcastroemello/Desktop/curry-code/w1/visitBerlin/mediaquery.gif)
+<img src='./mediaquery.gif' />
+
