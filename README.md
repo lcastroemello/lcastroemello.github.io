@@ -22,4 +22,4 @@ Initial webpage for a service to welcome companies in Berlin
 
 - Media Query (Mobile friendly)
 
-![mediaqueries](/Users/lcastroemello/Desktop/curry-code/w1/visitBerlin/mediaqueries.gif)
+![mediaquery](/Users/lcastroemello/Desktop/curry-code/w1/visitBerlin/mediaquery.gif)
